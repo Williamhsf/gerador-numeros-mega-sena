@@ -16,11 +16,8 @@ function generateNumbers() {
     }
   }
 
-<<<<<<< HEAD
   result.sort((a, b) => a - b);
 
-=======
->>>>>>> f79fe7abfaeef6287a729ed610ae5dbc5c59de8e
   for (let i = 0; i < numbers.length; i++) {
     numbers[i].textContent =result[i];
   }
